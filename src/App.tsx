@@ -1,29 +1,44 @@
-import { Heading } from './components/Heading';
-
 import './styles/theme.css';
 import './styles/global.css';
-import { TimerIcon } from 'lucide-react';
 
 export function App() {
-    console.log('Oi');
-
     return (
-        <>
-            <Heading>
-                Olá mundo com children!
-                <button>
-                    <TimerIcon />
-                </button>
-            </Heading>            
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum."
-            </p>
+        <>            
+            <div className='container-fluid'>
+
+                <div className="container">
+                    <div className='content'>
+                        <section>
+                            LOGO
+                        </section>
+                    </div>
+                </div>
+
+                <div className="container">
+                    <div className='content'>
+                        <section>
+                            MENU
+                        </section>
+                    </div>
+                </div>
+
+                <div className="container">
+                    <div className='content'>
+                        <section>
+                            FORM
+                        </section>
+                    </div>
+                </div>
+
+                <div className="container">
+                    <div className='content'>
+                        <section>
+                            FOOTER
+                        </section>
+                    </div>
+                </div>
+                
+            </div>
         </>
     );
 }
