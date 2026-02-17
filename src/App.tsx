@@ -2,19 +2,19 @@ import { Heading } from './components/Heading';
 
 import './styles/theme.css';
 import './styles/global.css';
+import { TimerIcon } from 'lucide-react';
 
 export function App() {
     console.log('Oi');
 
     return (
         <>
-            <Heading attr={123} attr2='String'>
-                Olá mundo children 1!
-            </Heading>
-            <Heading>Olá mundo children 2!</Heading>
-            <Heading>Olá mundo children 3!</Heading>
-            <Heading>Olá mundo children 4!</Heading>
-            <Heading>Olá mundo children 5!</Heading>
+            <Heading>
+                Olá mundo com children!
+                <button>
+                    <TimerIcon />
+                </button>
+            </Heading>            
             <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
